@@ -6,14 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
         Profile operator=new Profile();
-        operator.firstName="Ivanov";
-        operator.lastName="Ivan";
-        operator.age=25;
-        operator.user.login="IvIv";
-        operator.user.password="123";
+        operator.setFirstName("Ivanov");
+        operator.setLastName("Ivan");
+        operator.setAge(25);
+        User user1 = new User("IvIv","123");
 
-        LinkedList<Integer>linkedList=new LinkedList<>();
-        linkedList.add(7);
+        operator.toPrint();
 
     }
 
