@@ -32,8 +32,8 @@ public class Profile {
         this.age = age;
     }
 
-    public void toPrint(){
-        System.out.println("Пользователь: "+firstName+" " +lastName+" "+age+"лет");
+    public String  toString(){
+      return firstName+" " +lastName+" "+age;
     }
 
 

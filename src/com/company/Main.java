@@ -11,7 +11,7 @@ public class Main {
         operator.setAge(25);
         User user1 = new User("IvIv","123");
 
-        operator.toPrint();
+        System.out.println(operator.toString());
 
     }
 
